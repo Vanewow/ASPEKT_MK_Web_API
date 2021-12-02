@@ -136,7 +136,7 @@ namespace ASPEKT_MK_Web_API.Controllers
 
 
 
-        // GET: api/Contacts/Country/2
+        // GET: api/Contacts/Company/2
         [HttpGet("Company/{id}")]
         public async Task<ActionResult<IEnumerable<ContactDTO>>> GetContactsByCompany(int id)
         {
